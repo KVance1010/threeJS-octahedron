@@ -1,0 +1,25 @@
+{
+  "name": "threejs-vite-example",
+  "version": "1.0.0",
+  "description": "A Vite project with Three.js",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "stats.js": "^0.17.0",
+    "three": "^0.167.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.5"
+  }
+}
